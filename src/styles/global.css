@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+}
+html, body{
+    min-height: 100%;
+}
+body{
+    background-color: white;
+}
+p{
+    margin: 16px auto;
+    line-height: 1.5rem;
+    color: rgb(87, 139, 250);
+}
+a{
+    text-decoration: none;
+}
+
+.layout{
+    width: 100%;
+    margin: 0 auto;
+}
+.carousel-item{
+    margin-bottom: 30px;
+}
+.navbar{
+    margin-bottom: 40px ;
+    background: rgba(12, 153, 247, 0.979);
+    
+}
+.navbar .navbar-brand{
+    color: white;
+    text-decoration: none;
+}
+.navbar-expand-md .navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-light{
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+    
+    color: white;
+    border-bottom: 2px solid transparent;
+    margin-left: 20px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: black;
+}
+.carousel-caption h1{
+    font-weight: bolder;
+}
+
+
+
+/* products */
+.brands h6{
+    margin: 30px 0px;
+}
+.brands img{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 30vh;
+    max-width: 100%;
+}
+.brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+
+
+
+
+.layout footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(12, 153, 247, 0.979);
+    height: 5vh;
+    margin: 20px 0px;
+}
+.layout footer p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* small device */
+
+@media (max-width:650px) {
+    .carousel-item img{
+        height: 300px;
+    }
+}
